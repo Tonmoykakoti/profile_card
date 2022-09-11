@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #ededff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile {
+    width: 90%;
+    max-width: 320px;
+    background: #32384f;
+    text-align: center;
+    padding: 20px 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8 );
+    border-radius: 10px;
+    color: #fff;
+}
+
+.top-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.fa-heart {
+    padding-right: 20px;
+}
+.user-img {
+    width: 100px;
+    border-radius: 50%;
+}
+.profile h2 {
+    font-weight: 100;
+    font-size: 33px;
+    margin-top: 10px;
+    font-family: 'Square Peg', cursive;
+   
+}
+.profile p {
+    font-size: 40px;
+    font-family: 'Square Peg', cursive;
+}
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    display:inline-block ;
+    margin: 40px 0px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif
+
+}
+.insta {
+    width: 60px;
+    border-radius: 50%;
+}
+.facebook {
+    width: 60px;
+    border-radius: 50%;
+}
+.whatsapp {
+    margin-top:13px;
+    width: 60px;
+    border-radius: 50%;
+}
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+.headingPara {
+    padding-top: 5px;
+}
